@@ -11,6 +11,9 @@ Thumbs.db
 # โฟลเดอร์ build
 build/
 
+# โฟลเดอร์ build
+Debug/
+
 # ไฟล์ไบนารี
 *.bin
 *.hex
