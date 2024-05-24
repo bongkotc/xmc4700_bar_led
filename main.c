@@ -58,17 +58,8 @@ int main(void)
   TimerId = SYSTIMER_CreateTimer(TIME_1_SEC,SYSTIMER_MODE_PERIODIC,(void*)Timer_Callback,NULL);
   if(TimerId != 0U)
 	{
-	  //Timer is created successfully
-	  // Start/Run Software Timer
+	  //Start Timer
 	  status = SYSTIMER_StartTimer(TimerId);
-	  if(status == SYSTIMER_STATUS_SUCCESS)
-	  {
-		// Timer is running
-	  }
-	  else
-	  {
-		// Error during software timer start operation
-	  }
 	}
 
 
