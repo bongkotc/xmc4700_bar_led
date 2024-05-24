@@ -1,5 +1,5 @@
 # XMC4700 Bar Led Module
-<img src="Arduino%20Led.png" alt="My Image" width="500" height="500">
+<img src="images/xmc4700_bar_led.png" alt="My Image" width="500" height="500">
 
 # Wiring
 
